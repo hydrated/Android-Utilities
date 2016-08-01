@@ -1,0 +1,211 @@
+Mon Aug  1 18:44:01 CST 2016
+  PID       Vss      Rss      Pss      Uss  cmdline
+ 4984   792352K  183744K  160718K  158520K  com.zoodles.ellipsiskids
+  674   614164K   91044K   70063K   68056K  com.android.systemui
+  603   638156K   73108K   51652K   49636K  system_server
+  142   122684K   52260K   49368K   48852K  /system/bin/surfaceflinger
+ 1177   755680K   44480K   24784K   23352K  com.google.android.gms
+ 3566   659012K   38192K   18642K   17632K  com.android.launcher3
+  820   609748K   37648K   17795K   16388K  com.google.android.gms.persistent
+ 6992   552564K   38956K   16407K   14312K  com.android.kidgallery
+ 7034   546772K   38248K   15853K   13904K  com.android.kidcamera
+  145    85320K   17648K   15670K   15292K  /system/bin/mediaserver
+ 5755   599264K   38988K   15209K   12968K  com.google.android.gms.unstable
+ 3602   548108K   34268K   15009K   14020K  com.android.settings
+  798   569760K   33876K   14213K   12776K  com.google.android.inputmethod.latin
+ 1007   608768K   33052K   13552K   12292K  com.google.process.gapps
+ 6239   581300K   38564K   13283K    8348K  com.google.android.talk
+ 3743   561116K   29696K   11381K   10612K  com.google.android.apps.plus
+ 6279   573244K   35216K   11000K    6172K  com.google.android.talk:matchstick
+ 1360   541268K   25540K    8086K    7352K  com.vcast.mediamanager
+  838   537156K   23068K    5741K    5056K  com.android.phone
+ 1035   523064K   22652K    4987K    4224K  android.process.acore
+ 1521   529780K   21684K    4160K    3408K  com.orangelabs.rcs
+ 6314   519240K   22920K    4100K    3200K  android.process.media
+  848   516704K   20880K    3683K    2952K  com.motricity.verizon.ssodownloadable
+ 1753   520228K   20040K    3672K    3092K  com.marvell.vdmc
+ 5308   522300K   21832K    3653K    2892K  com.vzw.hss.widgets.infozone.ellipsis
+ 1280   515936K   19224K    2748K    2020K  com.quanta.pobu.apps.QciOOBE
+  888   517868K   19156K    2735K    2036K  com.powergadget
+ 1112   518140K   18792K    2644K    1956K  com.google.process.location
+ 5326   516272K   19432K    2464K    1728K  com.marvell.eprobe
+  862   517052K   18876K    2364K    1656K  com.marvell.ccimanager
+  143   523240K   24236K    2355K     940K  zygote
+ 7341     2952K    2436K    2200K    2196K  procrank
+ 1905   515784K   18240K    2194K    1404K  com.android.wifidisplay.source
+ 1889   515900K   18076K    2091K    1292K  com.marvell.stonelog
+  144    11588K    2256K    1102K     928K  /system/bin/drmserver
+  153    12976K    1652K     972K     916K  /system/bin/phservice
+  529    21832K    1424K     949K     908K  /system/bin/atcmdsrv
+  784     3488K    1456K     790K     748K  /system/bin/wpa_supplicant
+  518     6508K    1580K     748K     688K  /system/bin/nvm
+  139     9932K    1052K     545K     504K  /system/bin/netd
+  141    19124K    1064K     533K     508K  /system/bin/rild
+  167     3560K     780K     505K     500K  /system/bin/sdcard
+    1      696K     556K     448K     376K  /init
+  136     4816K     904K     436K     408K  /system/bin/vold
+  514     6564K     776K     382K     368K  /system/bin/eeh
+  147     3368K     912K     368K     344K  /system/bin/keystore
+  521     7452K     708K     302K     280K  /system/bin/diag
+  118      624K     356K     280K     208K  /sbin/ueventd
+  525     6316K     636K     236K     216K  /system/bin/IMLLog
+  148     1016K     524K     232K     224K  /system/bin/sensord
+ 1026     1112K     524K     226K     220K  /system/bin/dhcpcd
+  194     4604K     244K     224K     224K  /sbin/adbd
+  150     4372K     688K     219K     200K  /system/bin/FileMonitorService
+ 6054      928K     496K     183K     136K  /system/bin/sh
+  146     1020K     484K     166K     160K  /system/bin/installd
+  191      924K     460K     162K     116K  /system/bin/sh
+ 7335      920K     460K     151K     104K  sh
+  149     1096K     512K     149K     140K  /system/bin/MarvellWirelessDaemon
+  134     1428K     156K     148K     148K  /sbin/healthd
+  140     1028K     396K     129K     124K  /system/bin/debuggerd
+  135     1048K     356K     124K     120K  /system/bin/servicemanager
+  155      920K     364K     120K     116K  /system/bin/stonelog
+  154      948K     364K     120K     116K  /system/bin/ipsecd
+  156      916K     336K     112K     108K  /system/bin/simal
+  151      852K     316K     100K      96K  /system/bin/root_detect
+                           ------   ------  ------
+                          605666K  560788K  TOTAL
+
+RAM: 931856K total, 67212K free, 1728K buffers, 137912K cached, 456K shmem, 40664K slab
+Applications Memory Usage (kB):
+Uptime: 9100273 Realtime: 9185303
+
+** MEMINFO in pid 4984 [com.zoodles.ellipsiskids] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    64544    64476        0        0    80008    72962      313
+  Dalvik Heap     3084     3024        0        0     4812     4362      450
+ Dalvik Other     2200     2080        0        0                           
+        Stack      548      548        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     8643     1140     6752        0                           
+    .apk mmap       27        0        0        0                           
+    .dex mmap     2752       36     1852        0                           
+   Other mmap       14        4        0        0                           
+      Unknown    40300    40300        0        0                           
+        TOTAL   122116   111608     8608        0    84820    77324      763
+ 
+ Objects
+               Views:       14         ViewRootImpl:        1
+         AppContexts:        4           Activities:        1
+              Assets:        2        AssetManagers:        2
+       Local Binders:       16        Proxy Binders:       24
+    Death Recipients:        1
+     OpenSSL Sockets:        6
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Mon Aug  1 18:44:09 CST 2016
+  PID       Vss      Rss      Pss      Uss  cmdline
+ 4984   796980K  184800K  161762K  159552K  com.zoodles.ellipsiskids
+  674   592540K   89516K   69000K   67460K  com.android.systemui
+  603   638156K   73120K   51659K   49640K  system_server
+  142   110672K   43680K   40788K   40272K  /system/bin/surfaceflinger
+ 1177   755680K   44480K   24784K   23352K  com.google.android.gms
+ 3566   659012K   38192K   18642K   17632K  com.android.launcher3
+  820   609748K   37648K   17795K   16388K  com.google.android.gms.persistent
+ 6992   552564K   38956K   16407K   14312K  com.android.kidgallery
+ 7034   546772K   38248K   15853K   13904K  com.android.kidcamera
+  145    86344K   17672K   15682K   15292K  /system/bin/mediaserver
+ 5755   599264K   38988K   15209K   12968K  com.google.android.gms.unstable
+ 3602   548108K   34268K   15008K   14020K  com.android.settings
+  798   569760K   33876K   14213K   12776K  com.google.android.inputmethod.latin
+ 1007   608768K   33056K   13556K   12296K  com.google.process.gapps
+ 6239   581300K   38564K   13283K    8348K  com.google.android.talk
+ 3743   561116K   29696K   11381K   10612K  com.google.android.apps.plus
+ 6279   573244K   35216K   11000K    6172K  com.google.android.talk:matchstick
+ 1360   541268K   25540K    8086K    7352K  com.vcast.mediamanager
+  838   537156K   23068K    5741K    5056K  com.android.phone
+ 1035   523064K   22652K    4987K    4224K  android.process.acore
+ 1521   529780K   21684K    4160K    3408K  com.orangelabs.rcs
+ 6314   519240K   22920K    4100K    3200K  android.process.media
+  848   516704K   20880K    3683K    2952K  com.motricity.verizon.ssodownloadable
+ 1753   520228K   20040K    3672K    3092K  com.marvell.vdmc
+ 5308   523344K   21848K    3666K    2904K  com.vzw.hss.widgets.infozone.ellipsis
+ 1280   515936K   19224K    2748K    2020K  com.quanta.pobu.apps.QciOOBE
+  888   517868K   19156K    2735K    2036K  com.powergadget
+ 1112   518140K   18792K    2644K    1956K  com.google.process.location
+ 5326   516272K   19452K    2468K    1732K  com.marvell.eprobe
+  862   517052K   18876K    2364K    1656K  com.marvell.ccimanager
+  143   523240K   24236K    2355K     940K  zygote
+ 7372     2952K    2436K    2200K    2196K  procrank
+ 1905   515784K   18240K    2194K    1404K  com.android.wifidisplay.source
+ 1889   515900K   18076K    2091K    1292K  com.marvell.stonelog
+  144    11588K    2256K    1102K     928K  /system/bin/drmserver
+  153    14000K    1656K     976K     920K  /system/bin/phservice
+  529    21832K    1424K     949K     908K  /system/bin/atcmdsrv
+  784     3488K    1456K     790K     748K  /system/bin/wpa_supplicant
+  518     6508K    1580K     748K     688K  /system/bin/nvm
+  139     9932K    1052K     545K     504K  /system/bin/netd
+  141    19124K    1064K     533K     508K  /system/bin/rild
+  167     3560K     780K     505K     500K  /system/bin/sdcard
+    1      696K     556K     448K     376K  /init
+  136     4816K     904K     436K     408K  /system/bin/vold
+  514     6564K     776K     382K     368K  /system/bin/eeh
+  147     3368K     912K     368K     344K  /system/bin/keystore
+  521     7452K     708K     302K     280K  /system/bin/diag
+  118      624K     356K     280K     208K  /sbin/ueventd
+  525     6316K     636K     236K     216K  /system/bin/IMLLog
+  148     1016K     524K     232K     224K  /system/bin/sensord
+ 1026     1112K     524K     226K     220K  /system/bin/dhcpcd
+  194     4604K     244K     224K     224K  /sbin/adbd
+  150     4372K     688K     219K     200K  /system/bin/FileMonitorService
+ 6054      928K     496K     183K     136K  /system/bin/sh
+  146     1020K     484K     166K     160K  /system/bin/installd
+  191      924K     460K     162K     116K  /system/bin/sh
+ 7335      920K     460K     151K     104K  sh
+  149     1096K     512K     149K     140K  /system/bin/MarvellWirelessDaemon
+  134     1428K     156K     148K     148K  /sbin/healthd
+  140     1028K     396K     129K     124K  /system/bin/debuggerd
+  135     1048K     356K     124K     120K  /system/bin/servicemanager
+  155      920K     364K     120K     116K  /system/bin/stonelog
+  154      948K     364K     120K     116K  /system/bin/ipsecd
+  156      916K     336K     112K     108K  /system/bin/simal
+  151      852K     316K     100K      96K  /system/bin/root_detect
+                           ------   ------  ------
+                          597112K  552672K  TOTAL
+
+RAM: 931856K total, 77492K free, 1908K buffers, 151644K cached, 468K shmem, 40668K slab
+Applications Memory Usage (kB):
+Uptime: 9108306 Realtime: 9193336
+
+** MEMINFO in pid 4984 [com.zoodles.ellipsiskids] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    64824    64756        0        0    80548    72831      723
+  Dalvik Heap     3084     3024        0        0     4812     4234      578
+ Dalvik Other     2200     2080        0        0                           
+        Stack      556      556        0        0                           
+       Ashmem        6        0        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     8643     1140     6752        0                           
+    .apk mmap       27        0        0        0                           
+    .dex mmap     2752       36     1852        0                           
+   Other mmap       14        4        0        0                           
+      Unknown    40308    40308        0        0                           
+        TOTAL   122418   111904     8608        0    85360    77065     1301
+ 
+ Objects
+               Views:       14         ViewRootImpl:        1
+         AppContexts:        4           Activities:        1
+              Assets:        2        AssetManagers:        2
+       Local Binders:       16        Proxy Binders:       24
+    Death Recipients:        1
+     OpenSSL Sockets:        6
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
