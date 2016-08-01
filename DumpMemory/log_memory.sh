@@ -18,6 +18,7 @@ while true; do
 HEAPDIC="hprof/"`date +%s`.hprof
 date >> ${FILENAME}
 dumpsys meminfo ${MYPID} >> ${FILENAME} 2>&1
+procrank >> ${FILENAME}
 am dumpheap ${MYPID} ${HEAPDIC}
 echo >> ${FILENAME}
 echo '\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>' >> ./procrank.log
