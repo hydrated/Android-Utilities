@@ -21,7 +21,7 @@ dumpsys meminfo ${MYPID} >> ${FILENAME} 2>&1
 procrank >> ${FILENAME}
 am dumpheap ${MYPID} ${HEAPDIC}
 echo >> ${FILENAME}
-echo '\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>' >> ./procrank.log
+echo '\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>' >> ${FILENAME}
 echo "Sleep 5"
 sleep 5
 done
