@@ -1,10 +1,12 @@
+# log_memory Copyright (c) 2016 Hydra Chang [hydrated@msn.com] 'THE BEER-WARE LICENSE' (Revision 42): Hydra wrote this software. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return.
+
 #!/system/bin/sh
 if [ -n "$1" ]
 then
 echo "Process $1"
 else 
 echo "Usage : sh log_memory.sh (process name)"
-return
+exit
 fi
 MYPID=`pgrep $1`
 echo ${MYPID}
