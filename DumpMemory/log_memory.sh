@@ -20,7 +20,8 @@ FILENAME="memorylog"`date +%s`.log
 echo "FILENAME is "${FILENAME}
 
 #logcat
-logcat Androidplugin ActivityManager:I *:S >> ${FILENAME} &
+logcat -v time Androidplugin ActivityManager:I dalvikvm *:S >> ${FILENAME} &
+logcat dalvikvm *:S | grep ${MYPID} &
 
 #loop log
 while true; do
